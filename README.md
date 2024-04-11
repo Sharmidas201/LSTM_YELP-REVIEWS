@@ -26,10 +26,10 @@ To train the sentiment analysis model:
 
 ## Files Included
 
-- `kfold_hpt.ipynb` & `final training.ipynb`: Defines the LSTM model architecture.
-- `kfold_hpt.ipynb` & `final training.ipynb`: Preprocesses the training and testing data.
+- `kfold_hpt.ipynb` & `final_training.ipynb`: Defines the LSTM model architecture.
+- `kfold_hpt.ipynb` & `final_training.ipynb`: Preprocesses the training and testing data.
 - `kfold_hpt.ipynb`: Trains the LSTM model and performs hyperparameter tuning.
-- `final training.ipynb`: Trains the model with best hyperparameters and hyperparameter tuning , also includes data visualization to understand how each model interprets and classifies sentiment within the reviews.This is done by evaluating the performance of LSTM on a held-out testset of Yelp reviews using metrics like accuracy, precision, recall, and F1 score.
+- `final_training.ipynb`: Trains the model with best hyperparameters and hyperparameter tuning , also includes data visualization to understand how each model interprets and classifies sentiment within the reviews.This is done by evaluating the performance of LSTM on a held-out testset of Yelp reviews using metrics like accuracy, precision, recall, and F1 score.
 
 ## Results
 **kfold_hpt.ipynb**
@@ -41,7 +41,7 @@ The best hyperparameters found during hyperparameter tuning are:
 
 With these hyperparameters, the model achieves a validation accuracy of 84.53%.
 
-**final training.ipynb**
+**final_training.ipynb**
 
 The model is training again with the best hyperparameters and learning rate scheduler
 Results 
